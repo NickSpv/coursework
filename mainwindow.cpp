@@ -146,11 +146,11 @@ void MainWindow::save() {
     } else if (dynamic_cast<QGraphicsLineItem *>(obj) != nullptr) {
       QGraphicsLineItem *line = dynamic_cast<QGraphicsLineItem*>(obj);
       jsonObject["type"] = 3;
-      jsonObject["fromx"] = line->line().x1();
-      jsonObject["fromy"] = line->line().y1();
-      jsonObject["tox"] = line->line().x2();
-      jsonObject["toy"] = line->line().y2();
-      jsonObject["width"] = line->pen().width();
+      jsonObject["fromx"] = (int)line->line().x1();
+      jsonObject["fromy"] = (int)line->line().y1();
+      jsonObject["tox"] = (int)line->line().x2();
+      jsonObject["toy"] = (int)line->line().y2();
+      jsonObject["width"] = (int)line->pen().width();
     } else if (dynamic_cast<Ladder *>(obj) != nullptr) {
       Ladder *ladder = dynamic_cast<Ladder*>(obj);
       jsonObject["type"] = 4;
@@ -219,6 +219,7 @@ void MainWindow::load() {
               QPen pen(width == 5 ? Qt::black : Qt::gray);
               pen.setWidth(width);
               static_cast<QGraphicsLineItem*>(figure)->setPen(pen);
+              if (width != 5) figure->setZValue(1);
               this->plan->addItem(figure);
               std::cout << from_x << " " << from_y << " " <<
                            to_x << " " << to_y << std::endl;
@@ -229,6 +230,7 @@ void MainWindow::load() {
               int width = jsonObj.take("width").toInt();
               int side = jsonObj.take("side").toInt();
               Ladder *figure = new Ladder(width, height, side);
+              figure->set(xf, yf);
               figure->setPos(xf + height * 0.5, yf + width * 0.5);
               //figure->setPos(100, 100);
               this->plan->addItem(figure);
