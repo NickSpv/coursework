@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/build/RailwayStationConstructor_autogen",
+	"CMAKE_BINARY_DIR" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor",
+	"CMAKE_SOURCE_DIR" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor",
+	"INCLUDE_DIR" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/build/RailwayStationConstructor_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/pavel/Programming/Projects/C++/RailwayStationConstructor/images/3.svg",
+		"/home/pavel/Programming/Projects/C++/RailwayStationConstructor/images/2.svg",
+		"/home/pavel/Programming/Projects/C++/RailwayStationConstructor/images/6.svg",
+		"/home/pavel/Programming/Projects/C++/RailwayStationConstructor/images/1.svg",
+		"/home/pavel/Programming/Projects/C++/RailwayStationConstructor/images/5.svg",
+		"/home/pavel/Programming/Projects/C++/RailwayStationConstructor/images/4.svg"
+	],
+	"LOCK_FILE" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/build/CMakeFiles/RailwayStationConstructor_autogen.dir/AutoRcc_source_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "source" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_source.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib64/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/build/CMakeFiles/RailwayStationConstructor_autogen.dir/AutoRcc_source_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/pavel/Programming/Projects/C++/RailwayStationConstructor/source.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,8 @@
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/RailwayStationConstructor.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/edit_cache.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/rebuild_cache.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/list_install_components.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/install.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/install/local.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/install/strip.dir
+/home/pavel/Programming/Projects/C++/RailwayStationConstructor/CMakeFiles/RailwayStationConstructor_autogen.dir
